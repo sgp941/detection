@@ -17,13 +17,13 @@
 # Ratios (Number of ratios - ratio)
 1 1
 # Output path
-/home/sgp/Documents/hough/football/detect/1
+./detect
 # Scale factor for output image (default: 128)
 128
 # Path to positive examples
 /home/sgp/Documents/hough/football/trainimages/positive
 # File with postive examples
-/home/sgp/Documents/hough/football/train_pos_txt/train_pos13.txt
+/home/sgp/Documents/hough/football/train_txt/train_pos<trainingSize>.txt
 # Subset of positive images -1: all images
 -1
 # Sample patches from pos. examples
@@ -31,7 +31,7 @@
 # Path to negative examples
 /home/sgp/Documents/hough/football/trainimages/negative
 # File with negative examples
-/home/sgp/Documents/hough/football/train_neg_txt/train_neg13.txt
+/home/sgp/Documents/hough/football/train_txt/train_neg<trainingSize>.txt
 # Subset of negative images -1: all images
 -1
 # Sample patches from neg. examples
